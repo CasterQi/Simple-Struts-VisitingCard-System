@@ -32,10 +32,10 @@ public class UserLoginAction extends ActionSupport{
 	}
 	@Override
 	public String execute() throws Exception {
-		//½ÓÊÕlogin()·µ»ØµÄ¶ÔÏó
+		//æ¥æ”¶login()è¿”å›çš„å¯¹è±¡
 		useUser= userOperate.login(useUser.getUserName(), useUser.getUserPwd());
 		if(useUser==null){
-			this.addFieldError(useUser.getUserName(), "ÓÃ»§Ãû»òÃÜÂë²»ÕıÈ·");
+			this.addFieldError(useUser.getUserName(), "ç”¨æˆ·åæˆ–å¯†ç ä¸æ­£ç¡®");
 			return INPUT;
 		}
 		else{
@@ -57,7 +57,6 @@ public class UserLoginAction extends ActionSupport{
 	public void setUserId(int userId) {
 		UserId = userId;
 	}
-
 	public String getUserName() {
 		return UserName;
 	}

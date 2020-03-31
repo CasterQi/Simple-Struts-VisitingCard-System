@@ -11,6 +11,7 @@ import vo.user.User.User;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 
+
 public class findAllUserAction extends ActionSupport{
 	UseUser useUser=new UseUser();
 	UserOperate userOperate=new UserOperate();
@@ -37,7 +38,7 @@ public class findAllUserAction extends ActionSupport{
 		ActionContext actionContext=ActionContext.getContext();
 		Map session=actionContext.getSession();
 		useUser=(UseUser)session.get("useUser");
-		int t=operate.isEmpty(useUser.getUserId());//用户下有名片
+		int t=operate.isEmpty(useUser.getUserId());
 		if(t!=0){	
 			userList=operate.findAllUser(useUser.getUserId(),1, 10);
 			return "allUser";

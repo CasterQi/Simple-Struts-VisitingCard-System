@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="../assets/css/amazeui.min.css"/>
 <html>
 	<head>
-		<title>My JSP 'allUser.jsp' starting page</title>
+		<title>名片</title>
 	</head>
 	<body>
 		<h4 align="right">

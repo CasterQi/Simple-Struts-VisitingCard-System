@@ -10,7 +10,7 @@ import vo.bean.Jdbc.Jdbc;
 import vo.user.User.User;
 
 public class Operate {
-	//Ìí¼ÓÓÃ»§ÃûÆ¬
+	//æ·»åŠ ç”¨æˆ·åç‰‡
 	public void addUser(User user){
 		Jdbc jd=new Jdbc();
 		Connection conn=null;
@@ -36,7 +36,7 @@ public class Operate {
 
 	}
 	
-	//½«±»É¾³ıµÄÓÃ»§ÃûÆ¬¸´ÖÆµ½ÁíÒ»¸ö±í
+	//å°†è¢«åˆ é™¤çš„ç”¨æˆ·åç‰‡å¤åˆ¶åˆ°å¦ä¸€ä¸ªè¡¨
 	public void addUserToDelete(User user){
 		Jdbc jd=new Jdbc();
 		Connection conn=null;
@@ -62,7 +62,7 @@ public class Operate {
 
 	}
 	
-	//»Ö¸´
+	//æ¢å¤
 	public void addDeleteToInfo(User user){
 		Jdbc jd=new Jdbc();
 		Connection conn=null;
@@ -88,7 +88,7 @@ public class Operate {
 
 	}
 	
-	//¸ù¾İÓÃ»§ID²éÕÒÓÃ»§
+	//æ ¹æ®ç”¨æˆ·IDæŸ¥æ‰¾ç”¨æˆ·
 	public User findUserById(int id,int userId)throws Exception{
 		User user=null;
 		Connection conn=null;
@@ -118,7 +118,7 @@ public class Operate {
 		}
 		return user;
 	}
-	//¸ù¾İÓÃ»§ID²éÕÒ»ØÊÕÕ¾ÓÃ»§
+	//æ ¹æ®ç”¨æˆ·IDæŸ¥æ‰¾å›æ”¶ç«™ç”¨æˆ·
 	public User findRecoverUserById(int id,int userId)throws Exception{
 		User user=null;
 		Connection conn=null;
@@ -148,7 +148,7 @@ public class Operate {
 		}
 		return user;
 	}
-	//¸üĞÂÊı¾İ¿â
+	//æ›´æ–°æ•°æ®åº“
 	public void update(User user)throws Exception{
 		Connection conn=null;
 		PreparedStatement ps=null;
@@ -171,7 +171,7 @@ public class Operate {
 			Jdbc.free(rs, ps, conn);
 		}
 	}
-	//¸üĞÂ»ØÊÕÕ¾Êı¾İ¿â
+	//æ›´æ–°å›æ”¶ç«™æ•°æ®åº“
 	public void updateRecover(User user)throws Exception{
 		Connection conn=null;
 		PreparedStatement ps=null;
@@ -195,7 +195,7 @@ public class Operate {
 			Jdbc.free(rs, ps, conn);
 		}
 	}
-	//É¾³ıµÄÓÃ»§ÃûÆ¬
+	//åˆ é™¤çš„ç”¨æˆ·åç‰‡
 	public void delete_present(int id){
 		Connection conn=null;
 		PreparedStatement ps=null;
@@ -212,7 +212,7 @@ public class Operate {
 			Jdbc.free(rs, ps, conn);
 		}
 	}
-	//»Ö¸´µÄÓÃ»§ÃûÆ¬
+	//æ¢å¤çš„ç”¨æˆ·åç‰‡
 	public void delete_Recover(int id){
 		Connection conn=null;
 		PreparedStatement ps=null;
@@ -229,10 +229,10 @@ public class Operate {
 			Jdbc.free(rs, ps, conn);
 		}
 	}
-	//²é¿´»ØÊÕÕ¾
+	//æŸ¥çœ‹å›æ”¶ç«™
 	public ArrayList<User> select_recover(int userId,int pageNo,int pageSize){
 		ArrayList<User> userList=new ArrayList<User>();
-		int startRecno=(pageNo-1)*pageSize;//µ±Ç°¿ªÊ¼¼ÇÂ¼±àºÅ
+		int startRecno=(pageNo-1)*pageSize;//å½“å‰å¼€å§‹è®°å½•ç¼–å·
 		Connection conn=null;
 		PreparedStatement ps=null;
 		ResultSet rs=null;
@@ -262,7 +262,7 @@ public class Operate {
 		}
 		return userList;
 	}
-	//³¹µ×É¾³ıÓÃ»§ÃûÆ¬
+	//å½»åº•åˆ é™¤ç”¨æˆ·åç‰‡
 	public void delete_thorough(int id){
 		Connection conn=null;
 		PreparedStatement ps=null;
@@ -279,7 +279,7 @@ public class Operate {
 			Jdbc.free(rs, ps, conn);
 		}
 	}
-	//ÓÃ»§ÊÇ·ñÒÑ¾­´æÔÚ
+	//ç”¨æˆ·æ˜¯å¦å·²ç»å­˜åœ¨
 	public boolean hasExit(int id,int userId)throws SQLException{
 		Jdbc jd=new Jdbc();
 		boolean find=false;
@@ -303,7 +303,7 @@ public class Operate {
 		}
 		return find;
 	}
-	//²é¿´Êı¾İ¿âÊÇ·ñÎª¿Õ
+	//æŸ¥çœ‹æ•°æ®åº“æ˜¯å¦ä¸ºç©º
 	public int isEmpty(int userId) throws SQLException{
 		User user=null;
 		int count=0;
@@ -326,7 +326,7 @@ public class Operate {
 		}
 		return count;
 	}
-	//²é¿´»ØÊÕÕ¾ÊÇ·ñÎª¿Õ
+	//æŸ¥çœ‹å›æ”¶ç«™æ˜¯å¦ä¸ºç©º
 	public int recover_isEmpty(int userId) throws SQLException{
 		int count=0;
 		Connection conn=null;
@@ -348,7 +348,7 @@ public class Operate {
 		}
 		return count;
 	}
-	//·µ»Øµ±Ç°Ò³Êı
+	//è¿”å›å½“å‰é¡µæ•°
 	public int getPageCount(int pageSize)throws Exception{
 		Connection conn=null;
 		PreparedStatement ps=null;
@@ -368,10 +368,10 @@ public class Operate {
 		}
 		return t1==0?t2:t2+1;
 	}
-	//²éÕÒËùÓĞÓÃ»§
+	//æŸ¥æ‰¾æ‰€æœ‰ç”¨æˆ·
 	public ArrayList<User> findAllUser(int userId,int pageNo,int pageSize){
 		ArrayList<User> userList=new ArrayList<User>();
-		int startRecno=(pageNo-1)*pageSize;//µ±Ç°¿ªÊ¼¼ÇÂ¼±àºÅ
+		int startRecno=(pageNo-1)*pageSize;//å½“å‰å¼€å§‹è®°å½•ç¼–å·
 		Connection conn=null;
 		PreparedStatement ps=null;
 		ResultSet rs=null;
@@ -401,7 +401,7 @@ public class Operate {
 		}
 		return userList;
 	}
-	//Ä£ºı²éÑ¯
+	//æ¨¡ç³ŠæŸ¥è¯¢
 	public ArrayList<User> selectMuddy(String selectType,String condition,int userId ){
 		ArrayList<User> userList=new ArrayList<User>();
 		Connection conn=null;
@@ -411,13 +411,13 @@ public class Operate {
 			conn=Jdbc.getConnection();
 			String sql = "";
 			if ("0".equals(selectType)) {
-				sql = "select * from info where id like"+"'%"+Integer.parseInt(condition)+"%'"+"and userId=?";// ×ÔĞĞÌí¼ÓwhereÌõ¼ş
+				sql = "select * from info where id like"+"'%"+Integer.parseInt(condition)+"%'"+"and userId=?";// è‡ªè¡Œæ·»åŠ whereæ¡ä»¶
 			} else if ("1".equals(selectType)) {
-				sql = "select * from info where name like "+"'%"+condition+"%'"+"and userId=?";// ×ÔĞĞÌí¼ÓwhereÌõ¼ş
+				sql = "select * from info where name like "+"'%"+condition+"%'"+"and userId=?";// è‡ªè¡Œæ·»åŠ whereæ¡ä»¶
 			} else {
-				sql = "select * from info where phone like "+"'%"+condition+"%'"+"and userId=?";// ×ÔĞĞÌí¼ÓwhereÌõ¼ş
+				sql = "select * from info where phone like "+"'%"+condition+"%'"+"and userId=?";// è‡ªè¡Œæ·»åŠ whereæ¡ä»¶
 			}
-			//Object[] params = { "", "", "" };  // ×ÔĞĞÌí¼Óparams
+			//Object[] params = { "", "", "" };  // è‡ªè¡Œæ·»åŠ params
 			ps=conn.prepareStatement(sql);
 			ps.setInt(1, userId);
 			//ps.setString(2, condition);
@@ -441,7 +441,7 @@ public class Operate {
 		return userList;
 	}
 	
-	//»ØÊÕÕ¾µÄÄ£ºı²éÑ¯
+	//å›æ”¶ç«™çš„æ¨¡ç³ŠæŸ¥è¯¢
 	public ArrayList<User> selectRecoverMuddy(String selectType,String condition,int userId ){
 		ArrayList<User> userList=new ArrayList<User>();
 		Connection conn=null;
@@ -451,13 +451,13 @@ public class Operate {
 			conn=Jdbc.getConnection();
 			String sql = "";
 			if ("0".equals(selectType)) {
-				sql = "select * from info_delete where id like"+"'%"+Integer.parseInt(condition)+"%'"+"and userId=?";// ×ÔĞĞÌí¼ÓwhereÌõ¼ş
+				sql = "select * from info_delete where id like"+"'%"+Integer.parseInt(condition)+"%'"+"and userId=?";// è‡ªè¡Œæ·»åŠ whereæ¡ä»¶
 			} else if ("1".equals(selectType)) {
-				sql = "select * from info_delete where name like "+"'%"+condition+"%'"+"and userId=?";// ×ÔĞĞÌí¼ÓwhereÌõ¼ş
+				sql = "select * from info_delete where name like "+"'%"+condition+"%'"+"and userId=?";// è‡ªè¡Œæ·»åŠ whereæ¡ä»¶
 			} else {
-				sql = "select * from info_delete where phone like "+"'%"+condition+"%'"+"and userId=?";// ×ÔĞĞÌí¼ÓwhereÌõ¼ş
+				sql = "select * from info_delete where phone like "+"'%"+condition+"%'"+"and userId=?";// è‡ªè¡Œæ·»åŠ whereæ¡ä»¶
 			}
-			//Object[] params = { "", "", "" };  // ×ÔĞĞÌí¼Óparams
+			//Object[] params = { "", "", "" };  // è‡ªè¡Œæ·»åŠ params
 			ps=conn.prepareStatement(sql);
 			ps.setInt(1, userId);
 			//ps.setString(2, condition);

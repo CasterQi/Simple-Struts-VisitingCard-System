@@ -9,7 +9,7 @@ import vo.bean.Jdbc.Jdbc;
 import vo.user.User.UseUser;
 
 public class UserOperate {
-	//添加用户
+	//娣诲姞鐢ㄦ埛
 	public void addUseUser(UseUser useUser)throws SQLException{
 		Connection conn=null;
 		PreparedStatement ps=null;
@@ -30,7 +30,7 @@ public class UserOperate {
 			Jdbc.free(rs, ps, conn);
 		}
 	}
-	//查找用户是否存在
+	//鏌ユ壘鐢ㄦ埛鏄惁瀛樺湪
 	public UseUser findUseUser(String UserName)throws SQLException{	
 		UseUser useUser=null;
 			Jdbc jd=new Jdbc();
@@ -60,7 +60,7 @@ public class UserOperate {
 			}
 			return useUser;
 		}
-	//是否存在重名用户
+	//鏄惁瀛樺湪閲嶅悕鐢ㄦ埛
 	public boolean hasSameName(String UserName)throws SQLException{
 		String name=null;
 		
@@ -89,7 +89,7 @@ public class UserOperate {
 		}
 		return false;
 	}
-	//登陆
+	//鐧婚檰
 	public UseUser login(String UserName,String UserPwd)throws SQLException{
 		//String name=null;
 		//String password=null;
