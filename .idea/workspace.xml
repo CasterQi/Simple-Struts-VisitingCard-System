@@ -7,65 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fef3e315-e496-4ebe-8343-0de2cf30a680" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/css/amazeui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/css/amazeui.flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/css/amazeui.flat.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/css/amazeui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/app-icon72x72@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/admin-chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/admin-firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/admin-ie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/admin-opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/admin-safari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/adminPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/blogPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/landing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/landingPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/loginPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/examples/sidebarPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/i/startup-640x1096.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/amazeui.ie8polyfill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/amazeui.ie8polyfill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/amazeui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/amazeui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/amazeui.widgets.helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/amazeui.widgets.helper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/handlebars.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/assets/js/jquery3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/addUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/allUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/allUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/findRecoverUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/findRecoverUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/noUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/WebRoot/noUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/WEB-INF/classes/vo/action/Action/UserLoginAction-validation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/WEB-INF/classes/vo/action/Action/registerUserAction-validation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/addFail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/addSuccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/addUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/allUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/findRecoverUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/modifyUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/muddyUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/noUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/recoverMuddyUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/classes/artifacts/strutsdemo_2_war_exploded/register_Success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple-Struts-VisitingCard-System/strutsdemo_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Simple-Struts-VisitingCard-System" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -96,6 +38,12 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.26" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.26" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -265,7 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585641583464</updated>
-      <workItem from="1585641591081" duration="3332000" />
+      <workItem from="1585641591081" duration="4087000" />
     </task>
     <servers />
   </component>
@@ -281,54 +229,58 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="305" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646071991" />
-    <state width="1126" height="280" key="GridCell.Tab.0.bottom" timestamp="1585646101634">
+    <state width="1126" height="280" key="GridCell.Tab.0.bottom" timestamp="1585648319810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.0.bottom/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101634" />
-    <state width="1126" height="280" key="GridCell.Tab.0.center" timestamp="1585646101633">
+    <state width="1126" height="280" key="GridCell.Tab.0.bottom/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319810" />
+    <state width="1126" height="280" key="GridCell.Tab.0.center" timestamp="1585648319809">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.0.center/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101633" />
-    <state width="1126" height="280" key="GridCell.Tab.0.left" timestamp="1585646101632">
+    <state width="1126" height="280" key="GridCell.Tab.0.center/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319809" />
+    <state width="1126" height="280" key="GridCell.Tab.0.left" timestamp="1585648319808">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.0.left/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101632" />
-    <state width="1126" height="280" key="GridCell.Tab.0.right" timestamp="1585646101634">
+    <state width="1126" height="280" key="GridCell.Tab.0.left/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319808" />
+    <state width="1126" height="280" key="GridCell.Tab.0.right" timestamp="1585648319809">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.0.right/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101634" />
-    <state width="1126" height="280" key="GridCell.Tab.1.bottom" timestamp="1585646101519">
+    <state width="1126" height="280" key="GridCell.Tab.0.right/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319809" />
+    <state width="1126" height="280" key="GridCell.Tab.1.bottom" timestamp="1585648319811">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.1.bottom/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101519" />
-    <state width="1126" height="280" key="GridCell.Tab.1.center" timestamp="1585646101518">
+    <state width="1126" height="280" key="GridCell.Tab.1.bottom/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319811" />
+    <state width="1126" height="280" key="GridCell.Tab.1.center" timestamp="1585648319810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.1.center/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101518" />
-    <state width="1126" height="280" key="GridCell.Tab.1.left" timestamp="1585646101517">
+    <state width="1126" height="280" key="GridCell.Tab.1.center/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319810" />
+    <state width="1126" height="280" key="GridCell.Tab.1.left" timestamp="1585648319810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.1.left/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101517" />
-    <state width="1126" height="280" key="GridCell.Tab.1.right" timestamp="1585646101518">
+    <state width="1126" height="280" key="GridCell.Tab.1.left/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319810" />
+    <state width="1126" height="280" key="GridCell.Tab.1.right" timestamp="1585648319810">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.1.right/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101518" />
-    <state width="1126" height="280" key="GridCell.Tab.2.bottom" timestamp="1585646101521">
+    <state width="1126" height="280" key="GridCell.Tab.1.right/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319810" />
+    <state width="1126" height="280" key="GridCell.Tab.2.bottom" timestamp="1585648319811">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.2.bottom/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101521" />
-    <state width="1126" height="280" key="GridCell.Tab.2.center" timestamp="1585646101520">
+    <state width="1126" height="280" key="GridCell.Tab.2.bottom/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319811" />
+    <state width="1126" height="280" key="GridCell.Tab.2.center" timestamp="1585648319811">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.2.center/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101520" />
-    <state width="1126" height="280" key="GridCell.Tab.2.left" timestamp="1585646101519">
+    <state width="1126" height="280" key="GridCell.Tab.2.center/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319811" />
+    <state width="1126" height="280" key="GridCell.Tab.2.left" timestamp="1585648319811">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.2.left/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101519" />
-    <state width="1126" height="280" key="GridCell.Tab.2.right" timestamp="1585646101520">
+    <state width="1126" height="280" key="GridCell.Tab.2.left/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319811" />
+    <state width="1126" height="280" key="GridCell.Tab.2.right" timestamp="1585648319811">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="280" key="GridCell.Tab.2.right/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585646101520" />
+    <state width="1126" height="280" key="GridCell.Tab.2.right/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319811" />
+    <state x="342" y="175" key="SettingsEditor" timestamp="1585648319035">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="342" y="175" key="SettingsEditor/-429.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585648319035" />
     <state x="276" y="276" key="struts2 file set editor" timestamp="1585641793202">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
